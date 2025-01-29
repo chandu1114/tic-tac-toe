@@ -87,9 +87,8 @@ function App() {
         <h1 className={next ? "playerXColor" : "playerOColor"}>
           {next ? "Player X Turn" : "Player O Turn"}
         </h1>
-        <div>
-          <h2 className="game-status">{message}</h2>
-        </div>
+
+        <h2 className="game-status">{message}</h2>
       </main>
     </>
   );

@@ -29,31 +29,32 @@
 /* Game */
 .game {
   height: 80vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .game-grid {
   display: grid;
   grid-template-columns: 5rem 5rem 5rem;
   grid-template-rows: 5rem 5rem 5rem;
+  margin-bottom: 2rem;
 }
 
 .game-status {
   text-align: center;
   color: green;
   font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
 .playerXColor {
   color: blue;
-  padding-left: 3rem;
+  margin-bottom: 1rem;
 }
 
 .playerOColor {
   color: red;
-  padding-left: 3rem;
+  margin-bottom: 1rem;
 }
